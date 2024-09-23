@@ -1,5 +1,5 @@
 import pytest
-from server import app, public_key, private_key
+from server_rs256 import app, public_key, private_key
 import jwt
 from flask import Flask
 
